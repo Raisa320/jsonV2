@@ -2,9 +2,12 @@
   "name": "jsonv2",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "dev": "node server.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
